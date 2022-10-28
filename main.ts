@@ -10,8 +10,7 @@ basic.forever(function () {
         maqueen.motorStop(maqueen.Motors.M1)
     } else {
         maqueen.motorStop(maqueen.Motors.All)
-        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 60)
+        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 60)
         basic.pause(500)
     }
-    basic.pause(50)
 })
