@@ -4,8 +4,6 @@ basic.forever(function () {
         maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, randint(18, 22))
         maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, randint(18, 22))
     } else {
-        maqueen.motorStop(maqueen.Motors.All)
-        basic.pause(200)
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 200)
         basic.pause(500)
     }
